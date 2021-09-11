@@ -14,6 +14,7 @@ namespace DoublyLinked
         {
             Data = d;
             /* Prev and Next are left Null */
+            /* Prev and Next are left Null */
         }
     }
 }
