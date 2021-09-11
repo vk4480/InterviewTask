@@ -1,0 +1,9 @@
+F:\vimlesh\InterviewTask\GHEAPI\bin\Debug\netstandard2.0\GHEAPI.deps.json
+F:\vimlesh\InterviewTask\GHEAPI\bin\Debug\netstandard2.0\GHEAPI.dll
+F:\vimlesh\InterviewTask\GHEAPI\bin\Debug\netstandard2.0\GHEAPI.pdb
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.csprojAssemblyReference.cache
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.csproj.CoreCompileInputs.cache
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.AssemblyInfoInputs.cache
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.AssemblyInfo.cs
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.dll
+F:\vimlesh\InterviewTask\GHEAPI\obj\Debug\netstandard2.0\GHEAPI.pdb

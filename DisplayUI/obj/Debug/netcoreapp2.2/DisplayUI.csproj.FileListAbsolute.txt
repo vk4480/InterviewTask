@@ -1,0 +1,4 @@
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.csprojAssemblyReference.cache
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.csproj.CoreCompileInputs.cache
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.AssemblyInfoInputs.cache
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.AssemblyInfo.cs
