@@ -6,11 +6,11 @@ namespace DoublyLinked
 {
     public class Node
     {
-        public int Data;
+        public string Data;
         public Node Next;
         public Node Prev;
 
-        public Node(int d)
+        public Node(string d)
         {
             Data = d;
             /* Prev and Next are left Null */

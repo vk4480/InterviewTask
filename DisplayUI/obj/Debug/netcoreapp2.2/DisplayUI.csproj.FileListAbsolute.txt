@@ -2,3 +2,15 @@ F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.csprojAssem
 F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.csproj.CoreCompileInputs.cache
 F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.AssemblyInfoInputs.cache
 F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.AssemblyInfo.cs
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DisplayUI.deps.json
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DisplayUI.runtimeconfig.json
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DisplayUI.runtimeconfig.dev.json
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DisplayUI.dll
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DisplayUI.pdb
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DoublyLinked.dll
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\DoublyLinked.pdb
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.csproj.CopyComplete
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.dll
+F:\vimlesh\InterviewTask\DisplayUI\obj\Debug\netcoreapp2.2\DisplayUI.pdb
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\GHEAPI.dll
+F:\vimlesh\InterviewTask\DisplayUI\bin\Debug\netcoreapp2.2\GHEAPI.pdb

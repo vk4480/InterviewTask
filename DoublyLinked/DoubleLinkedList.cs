@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace DoublyLinked
 {
-    class DoubleLinkedList
+    public class DoubleLinkedList
     {
         private Node _head;
         public Node Head
@@ -28,16 +30,16 @@ namespace DoublyLinked
         private Node Partition(Node last, Node head)
         {
             // set pivot as h element
-            int pivot = head.Data;
+            string pivot = head.Data;
 
             // similar to i = l-1 for array implementation
             Node i = last.Prev;
-            int temp;
+            string temp;
 
             // Similar to "for (int j = l; j <= h- 1; j++)"
             for (Node j = last; j != head; j = j.Next)
             {
-                if (j.Data <= pivot)
+                if (j.Data.CompareTo(pivot) < 0)
                 {
                     // Similar to i++ for array
                     i = (i == null) ? last : i.Next;
@@ -81,14 +83,14 @@ namespace DoublyLinked
         {
             while (head != null)
             {
-                Console.Write(head.Data + " ");
+                Console.Write(head.Data + "\n");
                 head = head.Next;
             }
         }
 
         /* Function to insert a node at the
         beginning of the Doubly Linked List */
-        public void Push(int new_Data)
+        public void Push(string new_Data)
         {
             Node new_Node = new Node(new_Data); /* allocate node */
 
@@ -113,5 +115,37 @@ namespace DoublyLinked
         }
 
         /* Driver code */
+
+        public void OccurancesOfElement(Node node)
+        {
+            Dictionary<string, int> visitedNode = new Dictionary<string, int>();
+            while (node != null)
+            {
+                while (node != null)
+                {
+                    if (visitedNode.ContainsKey(node.Data))
+                    {
+                        int value = visitedNode[node.Data];
+                        visitedNode[node.Data] = value + 1;
+                    }
+                    else
+                    {
+                        visitedNode.Add(node.Data, 1);
+                    }
+                    node = node.Next;
+                }
+            }
+            foreach (KeyValuePair<string, int> kvp in visitedNode)
+            {
+                Console.WriteLine(kvp.Key + " Counts are " + kvp.Value);  // Print the Repeated word and its count  
+            }
+            using (var writer = new StreamWriter(Path.Combine(Path.GetTempPath(), "SaveFile.csv")))
+            {
+                foreach (var pair in visitedNode)
+                {
+                    writer.WriteLine("{0};{1};", pair.Key, pair.Value);
+                }
+            }
+        }
     }
 }
